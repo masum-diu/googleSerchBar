@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul a {
+    text-decoration: none;
+    margin-left: 24px;
+    color: rgb(75, 72, 72);
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+.avatar {
+    width: 90vw;
+    max-width: 34px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.boodyimage {
+    width: 300px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 50vw;
+    height: 50px;
+    padding-left: 60px;
+    outline: none;
+    border: none;
+    border-radius: 100px;
+    border: 1px solid #d2d4da;
+    font-size: 15px;
+}
+
+input:hover {
+    box-shadow: 3px 3px 8px 8px #f2f5f5;
+}
+
+.forms-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-search {
+    position: absolute;
+    margin-right: 46%;
+    font-size: 100%;
+    color: #9b9da0;
+    font-weight: small;
+    cursor: pointer;
+}
+
+.fa-microphone {
+    position: absolute;
+    margin-left: 46%;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+button {
+    margin-top: 40px;
+    padding: 13px;
+    border: none;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    margin-left: 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 3px 3px 8px 8px #f2f5f5;
+}
+
+p {
+    margin-top: 40px;
+    letter-spacing: 1px;
+}
+
+a {
+    text-decoration: none;
+}
